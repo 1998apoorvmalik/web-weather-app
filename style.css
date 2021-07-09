@@ -1,0 +1,82 @@
+body {
+    background-color: #091f42;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h5 {
+    color: #54647d;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #54647d;
+    margin: 0;
+}
+
+.card {
+    width: 250px;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.btn {
+    height: 100%;
+}
+
+.btn-text {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.temperature {
+    color: #1e2431;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.temperature:after {
+    font-size: 24px;
+    vertical-align: 75%;
+    content: "\2103";
+}
+
+.no-border {
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+}
+
+#submit {
+    background-color: #ff1f42;
+}
+
+#reset {
+    background-color: #ff8c03;
+}
+
+#loader {
+    border: 8px solid white;
+    border-top: 8px solid #ff1f42;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
